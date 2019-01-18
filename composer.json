@@ -1,0 +1,22 @@
+{
+  "name": "netis/yii2-custom-classes",
+  "description": "Custom components, helpers for Yii2",
+  "homepage": "http://www.netis.pl/",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Tomasz Mężyński",
+      "email": "tmezynski@netis.pl"
+    }
+  ],
+  "require": {
+    "php": ">=7.1",
+    "yiisoft/yii2": ">=2.0.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "netis\\custom\\": ""
+    }
+  }
+}
